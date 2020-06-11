@@ -15,7 +15,7 @@ Als Beispiel hier ein paar Commands:
 
 > <"vagrant status"> -->   #Status der VM
 
-> <"vagrant port">  -->    #weitergeleitete Ports der VM 
+> <"vagrant port">  -->    #Anzeige weitergeleitete Ports der VM 
 
 > <"vagrant halt">  -->    #stoppt VM
 
