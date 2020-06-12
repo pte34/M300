@@ -28,9 +28,17 @@ Weitere Informationen zu Vagrant unter diesem [Hyperlink](https://www.vagrantup.
 Git wurde von Linux-Gründer Linux Torvalds entwickelt. Es ist Versionenorientiert. Es macht es mehreren Benutzern möglich, eine einzelne Datei, gleichzeitig zu bearbeiten.
 
 
+### Repository
+
 ![Repository](https://backlog.com/app/themes/backlog-child/assets/img/guides/git/basics/creating_a_repository_001.png)
 
-### Repository
+Bei einem Git-Repository hat man als (Mit-)Bearbeiter mehrere Möglichkeiten, wie folgende:
+
+* Die eigene Arbeit kann einfach wieder in die zentrale Basis integriert werden.
+* Es kann zeitgleich weiterentwickelt werden, z.B. jeder an verschiedenen Features.
+* Die Versionierung verhindert, dass bereits getätigte Arbeiten verloren gehen bzw. überschrieben werden.
+* Bei Bedarf kann zu früheren Versionen zurückgekehrt werden oder simultan an verschiedenen Versionen gearbeitet werden (auch "Branches" genannt).
+
 
 
 
