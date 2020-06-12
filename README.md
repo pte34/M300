@@ -27,7 +27,12 @@ Weitere Informationen zu Vagrant unter diesem [Hyperlink](https://www.vagrantup.
 ## Git
 Git wurde von Linux-Gründer Linux Torvalds entwickelt. Es ist Versionenorientiert. Es macht es mehreren Benutzern möglich, eine einzelne Datei, gleichzeitig zu bearbeiten.
 
-![Repository](https://backlog.com/app/themes/backlog-child/assets/img/guides/git/basics/creating_a_repository_001.png) ("Repository")
+
+![Repository](https://backlog.com/app/themes/backlog-child/assets/img/guides/git/basics/creating_a_repository_001.png)
+
+### Repository
+
+
 
 
 
