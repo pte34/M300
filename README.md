@@ -2,7 +2,7 @@
 
 ## Linux
 
-![Linux](https://i1.wp.com/zigerschlitzmakers.ch/wp-content/uploads/2015/11/logo_Linux.png?fit=724%2C800&ssl=1)
+![Linux](https://upload.wikimedia.org/wikipedia/commons/thumb/a/af/Tux.png/220px-Tux.png)
 
 Linux ist ein Kernel, der für ein Betriebssystem zur Verfügung gestellt wird. Linux ist Open Source, deswegen kann man den Kernel erweitern.
 
