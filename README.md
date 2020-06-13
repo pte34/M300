@@ -39,6 +39,7 @@ Bei einem Git-Repository hat man als (Mit-)Bearbeiter mehrere Möglichkeiten, wi
 * Die Versionierung verhindert, dass bereits getätigte Arbeiten verloren gehen bzw. überschrieben werden.
 * Bei Bedarf kann zu früheren Versionen zurückgekehrt werden oder simultan an verschiedenen Versionen gearbeitet werden (auch "Branches" genannt).
 
+## Cloud Computing 
 
 
 
