@@ -78,10 +78,12 @@ PaaS ist eine Plattform für Entwickler, welche eine Plattform benützen, um zu 
 Software als ein Service, kann man sich so vorstellen; die Software muss nicht lokal auf einem Client installiert sein, sondern Eine Applikation, auf der Cloud, die nach aussen hin anbietet.
 
 ## Markdown
-Markdown ist eine vereinfachte Auszeichnungssprache. 
+Markdown ist eine vereinfachte Auszeichnungssprache. Dass man diese Auszeichnungsprache ohne konvertierung lesen kann, war das Ziel, bei der Entwicklung von Markdown.
 
 
 ## Systemsicherheit
+
+
 
 ## Vagrant
 ### Was ist Vagrant?
