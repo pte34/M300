@@ -44,31 +44,6 @@ Zum Beispiel VMWare oder Virtualbox, kann man als Windows-Client herunterladen u
 
 ![Hypervisoren](https://www.nakivo.com/blog/wp-content/uploads/2018/10/Type-1-and-type-2-hypervisor-1024x584.png)
 
-
-## Vagrant
-### Was ist Vagrant?
-
-Vagrant ist ein Programm, mit welchem man sehr einfach und effizient Virtuelle Maschinen erstellen kann. Anhand eines Files, des Vagrant Files, lassen sich Konfigurationen an den VM's und Informationen für die Hypervisoren anpassen. Durch die Commands von Vagrant lassen sich die VM's ganz einfach erstellen, booten & löschen.
-
-Als Beispiel hier ein paar Commands:
-
-> <"vagrant Init">  -->    #Erstellt VM
-
-> <"vagrant up">    -->    #Startet VM
-
-> <"vagrant ssh">   -->    #Verbindung per SSH zur VM
-
-> <"vagrant status"> -->   #Status der VM
-
-> <"vagrant port">  -->    #Anzeige weitergeleitete Ports der VM 
-
-> <"vagrant halt">  -->    #stoppt VM
-
-> <"vagrant destroy"> -->  #Löscht die VM
-
-
-Weitere Informationen zu Vagrant unter diesem [Hyperlink](https://www.vagrantup.com/)
-
 ## Git
 Git wurde von Linux-Gründer Linux Torvalds entwickelt. Es ist Versionenorientiert. Es macht es mehreren Benutzern möglich, eine einzelne Datei, gleichzeitig zu bearbeiten.
 
@@ -102,8 +77,53 @@ PaaS ist eine Plattform für Entwickler, welche eine Plattform benützen, um zu 
 
 Software als ein Service, kann man sich so vorstellen; die Software muss nicht lokal auf einem Client installiert sein, sondern Eine Applikation, auf der Cloud, die nach aussen hin anbietet.
 
+## Markdown
+Markdown ist eine vereinfachte Auszeichnungssprache. 
+
 
 ## Systemsicherheit
+
+## Vagrant
+### Was ist Vagrant?
+
+Vagrant ist ein Programm, mit welchem man sehr einfach und effizient Virtuelle Maschinen erstellen kann. Anhand eines Files, des Vagrant Files, lassen sich Konfigurationen an den VM's und Informationen für die Hypervisoren anpassen. Durch die Commands von Vagrant lassen sich die VM's ganz einfach erstellen, booten & löschen.
+
+Als Beispiel hier ein paar Commands:
+
+> <"vagrant Init">  -->    #Erstellt VM
+
+> <"vagrant up">    -->    #Startet VM
+
+> <"vagrant ssh">   -->    #Verbindung per SSH zur VM
+
+> <"vagrant status"> -->   #Status der VM
+
+> <"vagrant port">  -->    #Anzeige weitergeleitete Ports der VM 
+
+> <"vagrant halt">  -->    #stoppt VM
+
+> <"vagrant destroy"> -->  #Löscht die VM
+
+
+Weitere Informationen zu Vagrant unter diesem [Hyperlink](https://www.vagrantup.com/)
+
+### Vagrant in der Praxis
+#### Einleitung
+
+Ich beziehe mich in dieser Aufgabe, voll und ganz am Bewertungsraster der LB2 im BSCW.
+Es geht in dieser Aufgabe darum eine Vagrant VM aufzusetzen. Diese VM wird auf das Vagrantfile zurückgreifen, um die Konfigrationen auszulesen.
+
+#### Umgebung
+
+Meine Umgebung soll folgendermassen funktionieren:
+
+(Bild)
+
+
+
+
+
+
 
 
 
