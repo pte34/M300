@@ -21,7 +21,7 @@ Da ich im Geschäft mit Linux und Solaris arbeite, dokumentiere ich hier  ein pa
 Das sind natürlich nur ein paar wenige Basic Befehle, man kann diese natürlich auch weiter ausschmücken um effizienter zu arbeiten.
 
 ## Virtualisierung
-### Was ist eine Virtuelle Maschine
+### Was ist eine Virtuelle Maschine?
 
 Eine Virtuelle Maschine, abgekürzt VM, ist ein Computer, so wie wir ihn kennen, nur dass er nicht auf seiner eigenen Hardware "sitzt". Eine VM ist einfach gesagt, ein Computer, der im Computer ist. Die VM bezieht seine Ressourcen vom phyischen Host. Damit VM und Host, im Bezug Ressourcen, zusammenspielen, ist der Hypervisor zuständig. Er ist Vermittler zwischen VM und Host. Der Hypervisor ist eine Software, welche wichtige Elemente, wie Arbeitsspeicher, Prozessor Netzwerkverbindungen und so weiter, an die VM(s) vermittelt.
 
