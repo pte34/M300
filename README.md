@@ -39,7 +39,24 @@ Bei einem Git-Repository hat man als (Mit-)Bearbeiter mehrere Möglichkeiten, wi
 * Die Versionierung verhindert, dass bereits getätigte Arbeiten verloren gehen bzw. überschrieben werden.
 * Bei Bedarf kann zu früheren Versionen zurückgekehrt werden oder simultan an verschiedenen Versionen gearbeitet werden (auch "Branches" genannt).
 
-## Cloud Computing 
+## Cloud Computing
+
+Es gibt drei verschiedene Arten von Cloud Computing:
+
+#### IaaS (Infrastructure as a Service)
+
+IaaS ist eine Infrastruktur in der Cloud, welche man nutzen kann, um, als Beispiel, Virtuelle Maschinen zu verwalten. Diese Virtuelle Maschinen laufen dann auf dieser Infrastruktur.
+
+
+#### PaaS (Platform as a Service)
+
+PaaS ist eine Plattform für Entwickler, welche eine Plattform benützen, um zu entwickeln, dabei muss man sich keine Sorgen um die gesamte Infrastruktur machen.
+
+
+#### SaaS (Software as a Service)
+
+Software als ein Service, kann man sich so vorstellen; die Software muss nicht lokal auf einem Client installiert sein, sondern Eine Applikation, auf der Cloud, die nach aussen hin anbietet.
+
 
 
 
