@@ -82,6 +82,16 @@ Markdown ist eine vereinfachte Auszeichnungssprache. Dass man diese Auszeichnung
 
 
 ## Systemsicherheit
+### Firewall
+Die Firewall ist der Teil im Netzwerk, der das Netzwerk von anderen Netzen trennt. Sie bestimmt die Kommunikationswege. Ob Datenpakete ins Netzwerk rein oder aus dem Netzwerk raus gehen dürfen, entscheidet die Firewall. Das entscheidet sie an der Source, Destination, dem Port und dem Protokoll.
+
+Es gibt folgende Firewall-Typen:
+
+* Application Layer Firewall / Layer 7 – Firewall: Filterung nach Daten-Inhalt → Proxy
+* Personal Firewall -->  auf Host lokal die Kommunikation nach Regeln zulässt oder nicht (z.B. Windows Firewall, Comodo Firewall, Avira, Kaspersky ect. )
+
+### Reverse Proxy
+
 
 
 
@@ -120,6 +130,29 @@ Es geht in dieser Aufgabe darum eine Vagrant VM aufzusetzen. Diese VM wird auf d
 Meine Umgebung soll folgendermassen funktionieren:
 
 (Bild)
+
+Ich habe in diesem Repository unter dem Ordner "LB2/ubuntu" ein Vagrant File erstellt, wo sich die VM befindet.
+
+Den Ordner habe ich ganz einfach Lokal erstellt.
+Anschliessend habe ich in git bash in diesem Ordner folgenden vagrant Befehl eingegeben:
+
+> vagrant init ubuntu/trusty64
+
+Das File wurde also erstellt. In diesem File befinden sich die Konfigurationen der VM. Diese Konfigurationen sind in fünf Punkte aufgeteilt, diese sind logischerweise in dem vagrant file zu finden.
+
+* config.vm.box --> OS der VM
+* config.vm.provider --> Provider/Hypervisor
+* config.vm.network --> Netzwerkkonfigurationen
+* config.vm.synced_folder --> Konfigurationen mit Filezugriff
+* config.vm.provision --> Konfiguration zum automatisiertes Aufsetzen
+
+
+
+
+
+
+
+
 
 
 

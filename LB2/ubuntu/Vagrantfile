@@ -1,0 +1,41 @@
+# -*- mode: ruby -*-
+# vi: set ft=ruby :
+
+Vagrant.configure("2") do |config|
+
+  # Box Settings
+  config.vm.box = "ubuntu/trusty64"
+  
+  # Provider Settings
+	config.vm.provider "virtualbox" do |vb|
+		vb.memory = 512
+  
+	end
+  
+  # Network Settings
+
+  # config.vm.network "forwarded_port", guest: 80, host: 8080
+  # config.vm.network "forwarded_port", guest: 80, host: 8080, host_ip: "127.0.0.1"
+  # config.vm.network "private_network", ip: "192.168.1.32"
+  # config.vm.network "public_network"
+
+
+  # Folder Settings
+  # config.vm.synced_folder "../data", "/vagrant_data"
+	
+
+  
+
+
+  # Provision Settings
+   #config.vm.provision "shell", inline: <<-SHELL
+     #sudo apt-get update
+     
+     #sudo apt-get install apache2 -y 
+     #sudo service apache2 restart
+         
+   #SHELL
+   
+  config.vm.provision "shell", path: "C:/Users/Terry Peter/Documents/MeinLokalesRepository/M300/LB2/Bash/Bash.sh"
+
+end
