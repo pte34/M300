@@ -1,15 +1,15 @@
 # Update Packages
 apt-get update
 
-#Group Add
-groupadd database
-groupadd admin
-groupadd web
-
 #User Add
 useradd aragondb -p root
 useradd heliosdb -p root
 useradd alitaweb -p root
+
+#Group Add
+groupadd database
+groupadd admin
+groupadd web
 
 #Adding User to Group
 usermod -a -G database aragondb
@@ -34,15 +34,11 @@ chown root:web /teams/web/ -R
 apt-get install -y git
 apt-get install -y net-tools
 
-# Apache
+# Apache Service
 apt-get install -y apache2
-
-# Enable Apache Mods
-a2enmod rewrite
 
 # Restart Apache
 service apache2 restart
-
 
 # Install Firewall & Proxy
 sudo apt-get install -y ufw

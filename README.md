@@ -91,7 +91,9 @@ Es gibt folgende Firewall-Typen:
 * Personal Firewall -->  auf Host lokal die Kommunikation nach Regeln zulässt oder nicht (z.B. Windows Firewall, Comodo Firewall, Avira, Kaspersky ect. )
 
 ### Reverse Proxy
+Ein (Reverse-)Proxy kann man als Stellvertretter eines Rechners sehen. Er leitet die Datenpakete an den Rechner in einem Netz weiter. Heisst der aussenstehende Rechner merkt nicht, dass er nicht mit dem Zielrechner "spricht", sondern eben mit dem (Reverse-)Proxy.
 
+![Reverse-Proxy](https://avinetworks.com/wp-content/uploads/2020/01/reverse-proxy-server-diagram_1.png)
 
 
 
@@ -131,6 +133,8 @@ Meine Umgebung soll folgendermassen funktionieren:
 
 ![Bild](LB2/Plan/NW-Plan.png)
 
+Das Repository ist lokal gespeichert und alles was lokal verändert wird, wird mit einem git push auf das GitHub Repository "gepusht".
+
 Ich habe in diesem Repository unter dem Ordner "LB2/ubuntu" ein Vagrant File erstellt, wo sich die VM befindet.
 
 Den Ordner habe ich ganz einfach Lokal erstellt.
@@ -150,7 +154,28 @@ Wenn man diese Konfigurationen bearbeitet hat, kann man die VM unter dem richtig
 
 > vagrant up
 
-Die VM wird nun gestartet und liest dabei die Konfiguration aus dem Vagrant File.
+Die VM wird nun gestartet und liest dabei die Konfiguration aus dem Vagrant File aus.
+Nach dem Start kann man auf sie, per SSH zugreifen.
+
+> vagrant ssh
+
+Man ist jetzt auf der VM.
+
+### Testing
+
+| Testfall                      | Check          |
+| --------                      | -------------- |
+| SSH Zugriff                   | positiv        |
+| Programme installiert         | positiv        |
+| Berechtigungen stimmen        | positiv        |
+| User erfolgreich erstellt     | positiv        |
+| Firewall rules stimmen        | positiv        |
+
+### Sicherheit
+
+
+
+
 
 
 

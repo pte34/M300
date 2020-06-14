@@ -19,14 +19,9 @@ Vagrant.configure("2") do |config|
   # config.vm.network "private_network", ip: "192.168.33.10"
   # config.vm.network "public_network"
 
-
   # Folder Settings
   # config.vm.synced_folder "../data", "/vagrant_data"
 	
-
-  
-
-
   # Provision Settings
    #config.vm.provision "shell", inline: <<-SHELL
      #sudo apt-get update
@@ -36,6 +31,6 @@ Vagrant.configure("2") do |config|
          
    #SHELL
    
-  config.vm.provision "shell", path: "C:/Users/Terry Peter/Documents/MeinLokalesRepository/M300/LB2/Bash/Bash.sh"
+  config.vm.provision "shell", path: "C:/Users/Terry Peter/Documents/MeinLokalesRepository/M300/LB2/bash/Bashfile.sh"
 
 end
