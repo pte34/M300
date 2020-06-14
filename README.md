@@ -1,5 +1,4 @@
 # M300
-
 ## Linux
 
 ![Linux](https://upload.wikimedia.org/wikipedia/commons/thumb/a/af/Tux.png/220px-Tux.png)
@@ -45,7 +44,7 @@ Zum Beispiel VMWare oder Virtualbox, kann man als Windows-Client herunterladen u
 ![Hypervisoren](https://www.nakivo.com/blog/wp-content/uploads/2018/10/Type-1-and-type-2-hypervisor-1024x584.png)
 
 ## Git
-Git wurde von Linux-Gründer Linux Torvalds entwickelt. Es ist Versionenorientiert. Es macht es mehreren Benutzern möglich, eine einzelne Datei, gleichzeitig zu bearbeiten.
+Git wurde von Linux-Gründer Linux Torvalds entwickelt. Es ist eine Versionenorientierte Applikation. Es macht es mehreren Benutzern möglich, eine einzelne Datei, gleichzeitig zu bearbeiten.
 
 
 ### Repository
@@ -165,13 +164,27 @@ Man ist jetzt auf der VM.
 
 | Testfall                      | Check          |
 | --------                      | -------------- |
-| SSH Zugriff                   | positiv        |
-| Programme installiert         | positiv        |
-| Berechtigungen stimmen        | positiv        |
-| User erfolgreich erstellt     | positiv        |
-| Firewall rules stimmen        | positiv        |
+| SSH Zugriff                   | ja             |
+| Programme installiert         | ja             |
+| Berechtigungen stimmen        | ja             |
+| User erfolgreich erstellt     | ja             |
+| Firewall rules stimmen        | ja             |
 
 ### Sicherheit
+
+Ich habe als Sicherheitsmassnahmen für meine VM folgende getroffen:
+
+* Berechtigungen für die User auf bestimmte Ordner
+* Firewall
+* Reverse-Proxy (für den Apache-Webserver)
+
+Danach würde es noch weitere geben, die nicht in meiner VM vorhanden sein können:
+
+* User auf dem neusten Stand halten (Schulungen)
+* laufend Dokumentieren (In einer Doku (GitHub wegen Versionenbedingt) oder Knowledge-Database)
+
+### Reflexion / Wissenszuwachs
+
 
 
 

@@ -30,12 +30,13 @@ chown root:database /teams/datenbanken/ -R
 chmod 770 /teams/web -R
 chown root:web /teams/web/ -R
 
+# Apache Service
+apt-get install -y apache2
+
 # Basic Linux Stuff
 apt-get install -y git
 apt-get install -y net-tools
 
-# Apache Service
-apt-get install -y apache2
 
 # Restart Apache
 service apache2 restart
