@@ -129,7 +129,7 @@ Es geht in dieser Aufgabe darum eine Vagrant VM aufzusetzen. Diese VM wird auf d
 
 Meine Umgebung soll folgendermassen funktionieren:
 
-(Bild)
+![(Bild)](https://imgur.com/a/YAxi5ot)
 
 Ich habe in diesem Repository unter dem Ordner "LB2/ubuntu" ein Vagrant File erstellt, wo sich die VM befindet.
 
@@ -146,7 +146,11 @@ Das File wurde also erstellt. In diesem File befinden sich die Konfigurationen d
 * config.vm.synced_folder --> Konfigurationen mit Filezugriff
 * config.vm.provision --> Konfiguration zum automatisiertes Aufsetzen
 
+Wenn man diese Konfigurationen bearbeitet hat, kann man die VM unter dem richtigen Pfad mit folgendem Command starten:
 
+> vagrant up
+
+Die VM wird nun gestartet und liest dabei die Konfiguration aus dem Vagrant File.
 
 
 
