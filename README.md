@@ -129,7 +129,7 @@ Es geht in dieser Aufgabe darum eine Vagrant VM aufzusetzen. Diese VM wird auf d
 
 Meine Umgebung soll folgendermassen funktionieren:
 
-![Bild](C:\Users\Terry Peter\Documents\MeinLokalesRepository\M300\LB2\Plan)
+![Bild](C:\Users\Terry Peter\Documents\MeinLokalesRepository\M300\LB2\Plan\NW-Plan.png)
 
 Ich habe in diesem Repository unter dem Ordner "LB2/ubuntu" ein Vagrant File erstellt, wo sich die VM befindet.
 
