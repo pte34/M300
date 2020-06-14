@@ -178,14 +178,23 @@ Ich habe als Sicherheitsmassnahmen für meine VM folgende getroffen:
 * Firewall
 * Reverse-Proxy (für den Apache-Webserver)
 
-Danach würde es noch weitere geben, die nicht in meiner VM vorhanden sein können:
+Danach würde es noch weitere geben, die nicht mit meiner VM spezifisch etwas zu tun haben:
 
 * User auf dem neusten Stand halten (Schulungen)
-* laufend Dokumentieren (In einer Doku (GitHub wegen Versionenbedingt) oder Knowledge-Database)
+* laufend Dokumentieren (In einer Doku (GitHub wegen Versionenbasiert) oder Knowledge-Database)
 
-### Reflexion / Wissenszuwachs
+## Kreativität LB2
+
+Ich habe für den Punkt "Kreativität" ein Bash-Script erstellt, wo sich das Vagrantfile die (meisten) Konfigurationen her holt.
 
 
+## Wissenszuwachs
+
+Ich muss sagen, ich hatte anfangs ein wenig Probleme mich mit dem Thema zu beschäftigen, ich wusste mich selbst nicht wirklich zu orientieren. Ich hatte zuvor noch keine Ahnung, wie Github funktioniert, was vagrant ist. Durch die LB2 konnte ich einiges lernen
+
+## Reflexion
+
+Wie schon erwähnt, hatte ich anfangs keinen Plan, wie ich mich in diesem Modul orientieren muss. Ich denke, es hatte damit zu tun, dass ich mich in GitHub nicht gut zurecht fand, aber da ich dann angefangen habe, es langsam zu verstehen, kam die LB2 langsam ins Rollen, es hat bei mir zwar etwas länger gedauert, aber unzufrieden bin ich nicht, mit dem was ich (innert kurzer Zeit) gelernt habe. 
 
 
 
