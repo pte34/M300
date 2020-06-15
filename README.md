@@ -7,7 +7,7 @@ Linux ist ein Kernel, der für ein Betriebssystem zur Verfügung gestellt wird. 
 
 Da ich im Geschäft mit Linux und Solaris arbeite, dokumentiere ich hier  ein paar basic-commands die ich häufig verwende:
 
-* cd --> (Change directory) Verzeichnis wird geändert
+* cd --> (change directory) Verzeichnis wird geändert
 * ls --> (list) listet der Inhalt in einem Directory an
 * pwd --> (print working directory) gibt den aktuellen "Standort" im Dateisystem aus
 * mkdir --> (make directory) erstellt Verzeichnis
@@ -123,7 +123,7 @@ Weitere Informationen zu Vagrant unter diesem [Hyperlink](https://www.vagrantup.
 ### Vagrant in der Praxis
 #### Einleitung
 
-Ich beziehe mich in dieser Aufgabe, voll und ganz am Bewertungsraster der LB2 im BSCW.
+Ich beziehe mich in dieser Aufgabe auf das Bewertungsraster der LB2 im BSCW.
 Es geht in dieser Aufgabe darum eine Vagrant VM aufzusetzen. Diese VM wird auf das Vagrantfile zurückgreifen, um die Konfigrationen auszulesen.
 
 #### Umgebung
@@ -195,6 +195,16 @@ Ich muss sagen, ich hatte anfangs ein wenig Probleme mich mit dem Thema zu besch
 ## Reflexion
 
 Wie schon erwähnt, hatte ich anfangs keinen Plan, wie ich mich in diesem Modul orientieren muss. Ich denke, es hatte damit zu tun, dass ich mich in GitHub nicht gut zurecht fand, aber da ich dann angefangen habe, es langsam zu verstehen, kam die LB2 langsam ins Rollen, es hat bei mir zwar etwas länger gedauert, aber unzufrieden bin ich nicht, mit dem was ich (innert kurzer Zeit) gelernt habe. 
+
+
+## Containerisierung
+
+
+test
+
+
+## Microservices
+
 
 
 
