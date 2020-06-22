@@ -1,4 +1,4 @@
-# M300
+# M300 - LB2
 ## Linux
 
 ![Linux](https://upload.wikimedia.org/wikipedia/commons/thumb/a/af/Tux.png/220px-Tux.png)
@@ -197,13 +197,22 @@ Ich muss sagen, ich hatte anfangs ein wenig Probleme mich mit dem Thema zu besch
 Wie schon erwähnt, hatte ich anfangs keinen Plan, wie ich mich in diesem Modul orientieren muss. Ich denke, es hatte damit zu tun, dass ich mich in GitHub nicht gut zurecht fand, aber da ich dann angefangen habe, es langsam zu verstehen, kam die LB2 langsam ins Rollen, es hat bei mir zwar etwas länger gedauert, aber unzufrieden bin ich nicht, mit dem was ich (innert kurzer Zeit) gelernt habe. 
 
 
+# M300-LB3
 ## Containerisierung
 
+Containerisierung ist eine Art von Virtualisierung auf Anwendungsebene. Bei dieser Art von Virtualisierung werden mehrere isolierte Maschinen (Container) auf einem einzelnen Kernel ausgeführt.
+
+Container bieten eine Standardmethode um Anwendungscode, Laufzeitumgebung, Systemwerkzeugen, Systembibliotheken und Konfigurationen in einer Maschine zusammenzufassen. Im Gegensatz zu VMS, die alle ihren eigenen "Kernel" haben, teilen sich Container einen Kernel (Betriebssystem), der auf der Hardware installiert ist.
+
+#### Unterschied VM & Container
+
+![VM vs Container](https://cdn.ttgtmedia.com/rms/onlineImages/windows_server-virtual_machines_vs_containers.png)
 
 
 
 
-## Microservices
+
+## Docker
 
 
 
