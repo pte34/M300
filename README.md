@@ -239,6 +239,11 @@ Docker hat mehrere "Elemente", welche unterschiedliche Aufgaben übernehmen.
 
 ### Microservices
 
+Microservices sind ein Architekturkonzept der Anwendungsentwicklung. Ein Microservice ist also eine Kernfunktion einer Anwendung und er wird unabhängig von anderen Services ausgeführt.
+
+Jede Funktion kann unabhängig entwickelt und implementiert werden.
+
+
 
 
 
