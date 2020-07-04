@@ -215,6 +215,32 @@ Container bieten eine Standardmethode um Anwendungscode, Laufzeitumgebung, Syste
 ## Docker
 ![Docker](https://heikomamerow.de/wp-content/uploads/2018/01/docker.svg)
 
+Docker ist eine Software, welche die Isolation von Anwendungen, mithilfe Containervirtualisierung lizenzfrei bereitgestellt wird.
+
+Docker hat mehrere "Elemente", welche unterschiedliche Aufgaben übernehmen.
+
+#### Docker Deamon
+* Erstellt, Überwacht und führt Container aus
+* Baut und Speichert das Docker-Image
+
+#### Docker Client
+* "Kommandozeile" von Docker
+
+#### Docker-Images
+* Können als Container gestartet werden
+* Unveränderbar, man kann neu gebuildete Images als Container starten
+
+#### Container
+* Images welche ausgeführt werden
+* Ein Image kann man mehrmals als Container ausführen
+
+#### Registry
+* Images werden dort abgelegt
+
+### Microservices
+
+
+
 
 
 
