@@ -244,7 +244,17 @@ Microservices sind ein Architekturkonzept der Anwendungsentwicklung. Ein Microse
 Jede Funktion kann unabhängig entwickelt und implementiert werden.
 
 
+### Docker und Container in der Praxis
 
+In diesem Projekt geht es darum, Docker besser kennen zu lernen. Ich werde Container erstellen, diese Kombinieren und managen.
+
+### Umgebung
+
+
+
+### Docker installation
+
+Um mit Docker zu arbeiten muss man Docker erstmal installieren. Dies geschieht auf einer Ubuntu VM, auf dem Hypervisor VirtualBox.
 
 
 
