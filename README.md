@@ -272,17 +272,30 @@ Testen, ob man Docker korrekt installiert hat, kann man mit folgenden commands:
 Weitere Docker-Befehle:
 
 Container (welche laufen) anzeigen
+
 > docker ps
+
 Container anzeigen
+
 > docker container ls -a
+
 Images anzeigen
+
 > docker images
+
 Image herunterladen
+
 > pull (Imagename)
+
 Image erstellen
+
 > docker image build -t
+
 Container stoppen
+
 > docker container stop [ID]
+
 auf spezifischen Container zugreifen
+
 > docker container exec -it "Containername" bash
 
