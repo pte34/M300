@@ -262,8 +262,27 @@ Testen, ob man Docker korrekt installiert hat, kann man mit folgenden commands:
 
 > sudo systemctl status docker
 
-![Status Docker](https://github.com/pte34/M300/blob/master/LB3/Docker/Docker_running.png))
+![Status Docker](https://github.com/pte34/M300/blob/master/LB3/Docker/Docker_running.png)
 
 > sudo docker run hello-world
 
 ![Hello-World](https://github.com/pte34/M300/blob/master/LB3/Docker/docker_installed.png)
+
+
+Weitere Docker-Befehle:
+
+Container (welche laufen) anzeigen
+> docker ps
+Container anzeigen
+> docker container ls -a
+Images anzeigen
+> docker images
+Image herunterladen
+> pull (Imagename)
+Image erstellen
+> docker image build -t
+Container stoppen
+> docker container stop [ID]
+auf spezifischen Container zugreifen
+> docker container exec -it "Containername" bash
+
