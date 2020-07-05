@@ -262,8 +262,8 @@ Testen, ob man Docker korrekt installiert hat, kann man mit folgenden commands:
 
 > sudo systemctl status docker
 
-![Bild](LB3\Docker\Docker_running.png)
+![Status Docker](LB3\Docker\Docker_running.png)
 
 > sudo docker run hello-world
 
-![Bild](LB3\Docker\Docker_installed.png)
+![Hello-World](LB3\Docker\Docker_installed.png)
