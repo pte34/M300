@@ -254,38 +254,16 @@ In diesem Projekt geht es darum, Docker besser kennen zu lernen. Ich werde Conta
 
 ### Docker installation
 
-Um mit Docker zu arbeiten muss man Docker erstmal installieren. Dies geschieht auf einer Ubuntu VM, auf dem Hypervisor VirtualBox.
+Um mit Docker zu arbeiten muss man Docker erstmal installieren. Dies geschieht auf einer Ubuntu VM.
 
+Ich habe Docker mit dieser [Anleitung](https://www.digitalocean.com/community/tutorials/so-installieren-und-verwenden-sie-docker-auf-ubuntu-18-04-de) installiert.
 
+Testen, ob man Docker korrekt installiert hat, kann man mit folgenden commands:
 
+> sudo systemctl status docker
 
+![Docker running](C:\Users\Terry Peter\Documents\MeinLokalesRepository\M300\LB3\Docker\Docker running.png)
 
+> sudo docker run hello-world
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+![Docker hello world](C:\Users\Terry Peter\Documents\MeinLokalesRepository\M300\LB3\Docker\ Docker installed.png)
