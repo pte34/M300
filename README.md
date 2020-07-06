@@ -348,7 +348,7 @@ Wenn man den Speicher schützt, kann man die Chancen von DDos Attacken minimiere
 #### Neustarts begrenzen
 Ein Neustart verhindert Zeitverluste und Ressorcenverluste von einem sterbenden Container. Auch hier kann eine DDos Attacke verhindert werden.
 
-![reboot] (https://github.com/pte34/M300/blob/master/LB3/Docker/reboot.png)
+![reboot](https://github.com/pte34/M300/blob/master/LB3/Docker/reboot.png)
 
 #### Ressourcen einschränken
 
