@@ -308,4 +308,68 @@ Ich habe einen Test Ordner erstellt. Im Command ist das "$(pwd)" zu finden, und 
 Im Testordner habe ich nun ein index.html file erstellt, welches das Original überschreibt. Diese Änderungen geschehen allem im Container.
 ![Folder](https://github.com/pte34/M300/blob/master/LB3/Docker/Folder.png)
 
+![Dockerfile](https://github.com/pte34/M300/blob/master/LB3/Docker/Dockerfile.png)
+
+Im Dockerfile habe ich definiert, mit welchem Image ich arbeite, wo meine Workdirectory ist und, dass das Image alle Inhalte von der Workdirectory in mein Image kopieren soll.
+
+Als nächstes geht es darum, das Image zu "bauen". Dies macht man mit folgendem Command:
+
+> docker image build -t terrypeterm300/nginx-website .
+ 
+Nun ist das Image lokal verfügbar, und man kann bereits mit dem einen Container erstellen. Jedoch möchte ich, dass ich das von jedem Computer aus machen kann. Also pushe ich das noch von meinem Dockerhub Account.
+
+> Docker push seanm300/nginx-website
+
+mit dem Command: 
+> Docker login
+
+Kann man sich auf Docker Hub anmelden.
+
+### Test
+
+| Testfall                      | Check          |
+| --------                      | -------------- |
+| Container wird angezeigt      | ja             |
+| Webseite erreichbar           | nein           |
+| Ports sind nicht besetzt      | ja             |
+| Applikation erreichbar        | nein           |
+| Image Docker Hub erreichbar   | ja             |
+| Image funktioniert            | ja             |
+
+### Sicherheit
+
+Ich habe folgende weitere Sicherheitsaspekte für meine Container realisiert:
+
+#### Speicher
+Wenn man den Speicher schützt, kann man die Chancen von DDos Attacken minimieren. Dies ist wichtig, da der Speicher nicht "aufgefressen" werden darf. Hier wäre der Command dazu:
+
+![Speicher](https://github.com/pte34/M300/blob/master/LB3/Docker/Speicher.png)
+
+#### Neustarts begrenzen
+Ein Neustart verhindert Zeitverluste und Ressorcenverluste von einem sterbenden Container. Auch hier kann eine DDos Attacke verhindert werden.
+
+![reboot] (https://github.com/pte34/M300/blob/master/LB3/Docker/reboot.png)
+
+#### Ressourcen einschränken
+
+Der Linux-Kernel definiert eine Reihe von Berechtigungen, welche Prozessen zugewiesen werden können, um ihnen einen erweiterten Zugriff auf das System zu gestatten.
+
+Die Capabilities decken einen grossen Funktionsbereich ab, vom Ändern der Systemzeit bis hin zum Öffnen von Netzwerk-Sockets.
+
+![ressourcen](https://github.com/pte34/M300/blob/master/LB3/Docker/ressourcen.png)
+
+
+## Reflexion
+
+Die LB3 von diesem Modul habe ich einen guten Einblick in die Welt der Container erhalten. Ich weiss jetzt wie man mit Docker sehr schnell Services zum laufen bringt und diese auch verwalten kann.
+
+
+
+
+
+
+
+
+
+
 
