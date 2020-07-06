@@ -210,8 +210,6 @@ Container bieten eine Standardmethode um Anwendungscode, Laufzeitumgebung, Syste
 
 
 
-
-
 ## Docker
 ![Docker](https://heikomamerow.de/wp-content/uploads/2018/01/docker.svg)
 
@@ -244,15 +242,15 @@ Microservices sind ein Architekturkonzept der Anwendungsentwicklung. Ein Microse
 Jede Funktion kann unabhängig entwickelt und implementiert werden.
 
 
-### Docker und Container in der Praxis
+### Docker in der Praxis
 
 In diesem Projekt geht es darum, Docker besser kennen zu lernen. Ich werde Container erstellen, diese Kombinieren und managen.
 
-### Umgebung
+#### Umgebung
 
 (Insert Pic)
 
-### Docker installation
+#### Docker installation
 
 Um mit Docker zu arbeiten muss man Docker erstmal installieren. Dies geschieht auf einer Ubuntu VM.
 
@@ -299,3 +297,12 @@ auf spezifischen Container zugreifen
 
 > docker container exec -it "Containername" bash
 
+#### Image
+
+Ich habe für die LB3 ein bestehendes Image genommen.
+
+> docker container run -d -p 8080:80 nginx -v $(pwd):/usr/share/nginx/html --name nginx-website nginx
+
+Ich habe einen Test Ordner erstellt. Im Command ist das "$(pwd)" zu finden, und das ist dafür da, dass dieser Ordner in dem man sich gerade befindet, gemeint ist.
+
+Im Testordner habe ich nun ein index.html file erstellt, welches das Original überschreibt. Diese Änderungen geschehen allem im Container.
