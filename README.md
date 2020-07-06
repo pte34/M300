@@ -320,7 +320,8 @@ Nun ist das Image lokal verfügbar, und man kann bereits mit dem einen Container
 
 > Docker push seanm300/nginx-website
 
-mit dem Command: 
+mit dem Command:
+
 > Docker login
 
 Kann man sich auf Docker Hub anmelden.
@@ -361,15 +362,4 @@ Die Capabilities decken einen grossen Funktionsbereich ab, vom Ändern der Syste
 
 ## Reflexion
 
-Die LB3 von diesem Modul habe ich einen guten Einblick in die Welt der Container erhalten. Ich weiss jetzt wie man mit Docker sehr schnell Services zum laufen bringt und diese auch verwalten kann.
-
-
-
-
-
-
-
-
-
-
-
+Die LB3 von diesem Modul habe ich einen guten Einblick in die Welt der Container erhalten. Ich weiss jetzt wie man mit Docker sehr schnell Services zum laufen bringt und diese auch verwalten kann. Ich konnte von der Zeit her, nicht alles zum laufen bringen, was ein wenig schade ist, ich hätte auch mehr machen können. Aber ich finde, dass ich trotzdem was mitnehmen konnte.
