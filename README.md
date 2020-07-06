@@ -306,3 +306,4 @@ Ich habe für die LB3 ein bestehendes Image genommen.
 Ich habe einen Test Ordner erstellt. Im Command ist das "$(pwd)" zu finden, und das ist dafür da, dass dieser Ordner in dem man sich gerade befindet, gemeint ist.
 
 Im Testordner habe ich nun ein index.html file erstellt, welches das Original überschreibt. Diese Änderungen geschehen allem im Container.
+
